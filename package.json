@@ -1,0 +1,18 @@
+{
+  "name": "hydra-classic",
+  "version": "1.0.0",
+  "description": "Hydra-Classic style Discord music bot (Node.js) ready for Railway + external Lavalink. Prefisso: !",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "erela.js": "^2.8.1",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^2.6.7"
+  }
+}
