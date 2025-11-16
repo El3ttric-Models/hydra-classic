@@ -139,9 +139,9 @@ client.on('messageCreate', async (message) => {
         });
         player.connect();
       } else {
-        // move player if different channel
+        // move player if different channel (FIXED HERE)
         if (player.voiceChannel !== voiceChannel.id) {
-          await player.voiceChannel = voiceChannel.id;
+          player.voiceChannel = voiceChannel.id; // <-- CORRETTA
           player.connect();
         }
       }
